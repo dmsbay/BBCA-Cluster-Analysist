@@ -1,0 +1,13 @@
+The dataset underwent testing using a clustering algorithm with a tolerance of 0.13 on the transition matrix of the Markov chain, derived from the current state to the next state
+
+The clustering algorithm identified 5 clusters: {A1, A2, A3, A4}, {A5}, {A6, A7}, {A8, A9, A10}, {A11}. The diagonally dominant coupling matrix can help indicates clustering, 
+the cluster have average diagonal entries is 0.9284 
+
+After obtaining the clusters, the conclusions drawn are as follows:
+
+1. Stocks within the same class tend to pause their closing price movements within their respective clusters. For instance, when dealing with class 𝐴1, the closing price 
+movement is likely to pause in either 𝐴1, A2, A3, or A4.
+
+2. Therefore, for consistent and secure profits in BBCA stocks, it is recommended to execute buy and sell transactions when the closing prices align within the same cluster.
+
+3. On the other hand, for those seeking higher returns with increased risk in BBCA stocks, engaging in stock transactions when the closing prices fall into different clusters is advised
